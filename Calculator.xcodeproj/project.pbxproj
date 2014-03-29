@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A58CFBB318E5CFED00243D7A /* TTCalcLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = A58CFBB218E5CFED00243D7A /* TTCalcLogic.m */; };
 		A5F6E54118E4354400DBF539 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5F6E54018E4354400DBF539 /* Foundation.framework */; };
 		A5F6E54318E4354400DBF539 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5F6E54218E4354400DBF539 /* CoreGraphics.framework */; };
 		A5F6E54518E4354400DBF539 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5F6E54418E4354400DBF539 /* UIKit.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A58CFBB118E5CFED00243D7A /* TTCalcLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTCalcLogic.h; sourceTree = "<group>"; };
+		A58CFBB218E5CFED00243D7A /* TTCalcLogic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTCalcLogic.m; sourceTree = "<group>"; };
 		A5F6E53D18E4354400DBF539 /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5F6E54018E4354400DBF539 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A5F6E54218E4354400DBF539 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -117,6 +120,8 @@
 				A5F6E55218E4354400DBF539 /* Main.storyboard */,
 				A5F6E55518E4354400DBF539 /* TTViewController.h */,
 				A5F6E55618E4354400DBF539 /* TTViewController.m */,
+				A58CFBB118E5CFED00243D7A /* TTCalcLogic.h */,
+				A58CFBB218E5CFED00243D7A /* TTCalcLogic.m */,
 				A5F6E55818E4354400DBF539 /* Images.xcassets */,
 				A5F6E54718E4354400DBF539 /* Supporting Files */,
 			);
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5F6E55118E4354400DBF539 /* TTAppDelegate.m in Sources */,
+				A58CFBB318E5CFED00243D7A /* TTCalcLogic.m in Sources */,
 				A5F6E54D18E4354400DBF539 /* main.m in Sources */,
 				A5F6E55718E4354400DBF539 /* TTViewController.m in Sources */,
 			);
@@ -457,6 +463,7 @@
 				A5F6E57118E4354400DBF539 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A5F6E57218E4354400DBF539 /* Build configuration list for PBXNativeTarget "CalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +472,7 @@
 				A5F6E57418E4354400DBF539 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

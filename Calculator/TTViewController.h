@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TTCalcLogic.h"
 
-@interface TTViewController : UIViewController
+@interface TTViewController : UIViewController <TTCalcLogicDelegate>
+
+@property (strong, nonatomic) IBOutletCollection(UIButton) NSArray *numpad;
+@property (weak, nonatomic) IBOutlet UILabel *display;
+@property (strong,nonatomic) TTCalcLogic *calcLogic;
 
 @end
