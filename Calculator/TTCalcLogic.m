@@ -66,7 +66,7 @@
         self.firstData = self.tempData;
         self.tempData = @" ";
         
-    } else {
+    } else  if (![self.tempData isEqualToString:@" "]){
         self.secondData = self.tempData;
         self.tempData = @" ";
         float i = [self.firstData floatValue] - [self.secondData floatValue];
@@ -82,7 +82,7 @@
         self.firstData = self.tempData;
         self.tempData = @" ";
         
-    } else {
+    } else if (![self.tempData isEqualToString:@" "]) {
         self.secondData = self.tempData;
         self.tempData = @" ";
         float i = 0;
@@ -124,7 +124,7 @@
         self.firstData = self.tempData;
         self.tempData = @" ";
         
-    } else {
+    } else if (![self.tempData isEqualToString:@" "]) {
         self.secondData = self.tempData;
         self.tempData = @" ";
         float i = [self.firstData floatValue] / [self.secondData floatValue];
@@ -147,7 +147,7 @@
         self.firstData = self.tempData;
         self.tempData = @" ";
         
-    } else {
+    } else if (![self.tempData isEqualToString:@" "]) {
         self.secondData = self.tempData;
         self.tempData = @" ";
         float i = [self.firstData floatValue] * [self.secondData floatValue];
